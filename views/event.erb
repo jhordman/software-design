@@ -1,0 +1,13 @@
+<h2><%= @event[:title] %></h2>
+
+<p>
+    <%= @event[:description] %>
+</p>
+<p>
+    <%= @event[:date] %>
+</p>
+<p>
+    <%= @event[:location] %>
+</p>
+
+<a href="/events/<%= @event[:id] %>/rsvps/new">RSVP Now</a>
